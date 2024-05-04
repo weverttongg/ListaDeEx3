@@ -15,7 +15,7 @@ public class Agencia {
     }
     
 // (Set) VARIAVEL NUMERO ( metodo que não retorna valor e com parâmetro ) 
-    public void setNumero(int nuemro) {
+    public void setNumero(int numero) {
         this.numero = numero;
     }
     
