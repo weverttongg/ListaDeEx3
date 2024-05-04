@@ -9,35 +9,35 @@ public class Endereco {
     
                     //ENCAPSULAMENTO
     
-    // (Get) VARIAVEL RUA ( metodo que retorna um valor e sem par?metro )
+    // (Get) VARIAVEL RUA ( metodo que retorna um valor e sem parâmetro )
     public String getRua() {
         return rua;
     }
     
-    // (Set) VARIAVEL RUA ( metodo que n?o retorna valor e com par?metro ) 
+    // (Set) VARIAVEL RUA ( metodo que n?o retorna valor e com parâmetro ) 
     public void setRua(String rua) {
         this.rua = rua;
     }
     
                     //ENCAPSULAMENTO
     
-    // (Get) VARIAVEL NUMERO ( metodo que retorna um valor e sem par?metro )
+    // (Get) VARIAVEL NUMERO ( metodo que retorna um valor e sem parâmetro )
     public int getNumero() {
         return numero;
     }
     
-    // (Set) VARIAVEL NUMERO ( metodo que n?o retorna valor e com par?metro )
+    // (Set) VARIAVEL NUMERO ( metodo que n?o retorna valor e com parâmetro )
     public void setNumero (int numero) {
         this.numero = numero;
     }
                     //ENCAPSULAMENTO
     
-    // (Get) VARIAVEL TELEFONE ( metodo que retorna um valor e sem par?metro )
+    // (Get) VARIAVEL TELEFONE ( metodo que retorna um valor e sem parâmetro )
     public String getTelefone() {
         return telefone;
     }
     
-    // (Set) VARIAVEL TELEFONE ( metodo que n?o retorna valor e com par?metro ) 
+    // (Set) VARIAVEL TELEFONE ( metodo que n?o retorna valor e com parâmetro ) 
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
