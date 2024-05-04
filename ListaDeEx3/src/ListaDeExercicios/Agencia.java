@@ -31,4 +31,11 @@ public class Agencia {
         this.nome = nome;
     }
     
+    //METÓDO ToString
+
+    @Override
+    public String toString() {
+        return "Agencia{" + "numero=" + numero + ", nome=" + nome + '}';
+    }
+    
 }

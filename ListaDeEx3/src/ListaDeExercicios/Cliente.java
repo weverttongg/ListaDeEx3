@@ -34,14 +34,22 @@ private String cpf;
     
                 //ENCAPSULAMENTO
     
-    // (Get) VARIAVEL NOME ( metodo que retorna um valor e sem parâmetro )
-// (Set) VARIAVEL NOME ( metodo que não retorna valor e com parâmetro ) 
-
-                //ENCAPSULAMENTO
+    // (Get) VARIAVEL CPF ( metodo que retorna um valor e sem parâmetro )
+    public String getCpf(){
+        return cpf;
+    }
     
-    // (Get) VARIAVEL NOME ( metodo que retorna um valor e sem parâmetro )
-// (Set) VARIAVEL NOME ( metodo que não retorna valor e com parâmetro ) 
+// (Set) VARIAVEL CPF ( metodo que não retorna valor e com parâmetro ) 
+    public void getCpf(String cpf) {
+        this.cpf = cpf;
+    }
 
+    //METÓDO ToString
 
+    @Override
+    public String toString() {
+        return "Cliente{" + "nome=" + nome + ", identidade=" + identidade + ", cpf=" + cpf + '}';
+    }
+    
 
 }

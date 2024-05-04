@@ -41,4 +41,13 @@ public class Endereco {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+    
+    
+    //METÓDO ToString
+
+    @Override
+    public String toString() {
+        return "Endereco{" + "rua=" + rua + ", numero=" + numero + ", telefone=" + telefone + '}';
+    }
+    
 }

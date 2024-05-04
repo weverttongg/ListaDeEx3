@@ -43,5 +43,12 @@ public class Banco {
     public void setPaisOrigem(String paisOrigem) {
         this.paisOrgigem = paisOrigem;
     }
+
+    //METÓDO ToString
+    @Override
+    public String toString() {
+        return "Banco{" + "codigo=" + codigo + ", nome=" + nome + ", paisOrgigem=" + paisOrgigem + '}';
+    }
+    
     
 }

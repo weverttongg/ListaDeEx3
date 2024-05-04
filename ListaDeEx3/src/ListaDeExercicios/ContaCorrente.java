@@ -44,4 +44,11 @@ public class ContaCorrente {
         this.saldo = saldo;
     }
     
+    //METÓDO ToString
+
+    @Override
+    public String toString() {
+        return "ContaCorrente{" + "numero=" + numero + ", tipo=" + tipo + ", saldo=" + saldo + '}';
+    }
+    
 }
