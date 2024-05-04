@@ -51,5 +51,12 @@ private String cpf;
         return "Cliente{" + "nome=" + nome + ", identidade=" + identidade + ", cpf=" + cpf + '}';
     }
     
+    //METÓDO CONSTRUCTOR
+    public Cliente(String nome, String identidade, String cpf) {
+        this.nome = nome;
+        this.identidade = identidade;
+        this.cpf = cpf;
+    }
+    
 
 }

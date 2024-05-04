@@ -51,4 +51,11 @@ public class Banco {
     }
     
     
+    //METÓDO CONSTRUCTOR
+     public Banco(int codigo, String nome, String paisOrgigem) {
+        this.codigo = codigo;
+        this.nome = nome;
+        this.paisOrgigem = paisOrgigem;
+    }
+    
 }

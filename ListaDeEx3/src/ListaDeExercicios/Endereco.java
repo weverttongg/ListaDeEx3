@@ -50,4 +50,11 @@ public class Endereco {
         return "Endereco{" + "rua=" + rua + ", numero=" + numero + ", telefone=" + telefone + '}';
     }
     
+    //METÓDO CONSTRUCTOR
+    public Endereco(String rua, int numero, String telefone) {
+        this.rua = rua;
+        this.numero = numero;
+        this.telefone = telefone;
+    }
+    
 }

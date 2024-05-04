@@ -44,7 +44,6 @@ public class Veiculo {
     }
 
     //METÓDO ToString
-
     @Override
     public String toString() {
         return "Veiculo{" + "marca=" + marca + ", modelo=" + modelo + ", preco=" + preco + '}';
