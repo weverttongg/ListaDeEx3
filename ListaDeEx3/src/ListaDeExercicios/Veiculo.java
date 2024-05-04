@@ -1,13 +1,61 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ListaDeExercicios;
 
-/**
- *
- * @author wever
- */
 public class Veiculo {
+    //variaveis no estado de PRIVADAS
+    private String marca;
+    private String modelo;
+    private double preco;
+    
+    //ENCAPSULAMENTO
+    
+    // (Get) VARIAVEL MARCA ( metodo que retorna um valor e sem parâmetro )
+    public String getMarca() {
+        return marca;
+    }
+    
+// (Set) VARIAVEL MARCA ( metodo que não retorna valor e com parâmetro ) 
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    
+    //ENCAPSULAMENTO
+    
+    // (Get) VARIAVEL MODELO ( metodo que retorna um valor e sem parâmetro )
+    public String getModelo() {
+        return modelo;
+    }
+    
+// (Set) VARIAVEL MODELO ( metodo que não retorna valor e com parâmetro ) 
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+    
+    //ENCAPSULAMENTO
+    
+    // (Get) VARIAVEL PRECO ( metodo que retorna um valor e sem parâmetro )
+    public double getPreco() {
+        return preco;
+    }
+    
+// (Set) VARIAVEL PRECO ( metodo que não retorna valor e com parâmetro ) 
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    //METÓDO ToString
+
+    @Override
+    public String toString() {
+        return "Veiculo{" + "marca=" + marca + ", modelo=" + modelo + ", preco=" + preco + '}';
+    }
+
+    //METÒDO  CONSTRUCTOR
+
+    public Veiculo(String marca, String modelo, double preco) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.preco = preco;
+    }
     
 }
