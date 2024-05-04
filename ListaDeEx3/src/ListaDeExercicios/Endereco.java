@@ -47,7 +47,7 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" + "rua=" + rua + ", numero=" + numero + ", telefone=" + telefone + '}';
+        return "Endereco{" + "Rua:" + rua + ", Numero:" + numero + ", Telefone:" + telefone + '}';
     }
     
   

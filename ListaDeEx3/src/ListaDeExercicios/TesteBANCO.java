@@ -2,6 +2,7 @@ package ListaDeExercicios;
 
 //pegando as informaçoes da > Classe Banco <
 import ListaDeExercicios.Banco;
+import javax.swing.JOptionPane;
 
 public class TesteBANCO {
     
@@ -20,5 +21,7 @@ public class TesteBANCO {
         
          //imprimindo resultado
         System.out.println(informacao);
+        
+        JOptionPane.showMessageDialog(null, informacao);
     }
 }

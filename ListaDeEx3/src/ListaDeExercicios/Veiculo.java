@@ -46,7 +46,7 @@ public class Veiculo {
     //METÓDO ToString
     @Override
     public String toString() {
-        return "Veiculo{" + "marca=" + marca + ", modelo=" + modelo + ", preco=" + preco + '}';
+        return "As Informações do Veiculo {" + "Marca: " + marca + ", Modelo: " + modelo + ", Preco: R$" + preco + '}';
     }
 
 

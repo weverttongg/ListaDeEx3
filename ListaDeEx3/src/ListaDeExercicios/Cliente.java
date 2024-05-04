@@ -40,7 +40,7 @@ private String cpf;
     }
     
 // (Set) VARIAVEL CPF ( metodo que não retorna valor e com parâmetro ) 
-    public void getCpf(String cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
@@ -48,7 +48,7 @@ private String cpf;
 
     @Override
     public String toString() {
-        return "Cliente{" + "nome=" + nome + ", identidade=" + identidade + ", cpf=" + cpf + '}';
+        return "Cliente{" + "Nome:" + nome + ", Identidade:" + identidade + ", CPF:" + cpf + '}';
     }
     
 

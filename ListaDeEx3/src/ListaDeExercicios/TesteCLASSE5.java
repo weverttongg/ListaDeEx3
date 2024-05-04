@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ListaDeExercicios;
 
-/**
- *
- * @author wever
- */
+import javax.swing.JOptionPane;
+import ListaDeExercicios.ClasseDoItem5;
+
 public class TesteCLASSE5 {
+     public static void main(String[] args) {
+        //Criando objeto
+        Endereco e = new Endereco();
+        
+        //Defindo valores aos atributos
+        e.setNumero(20);
+        e.setRua("Av das Castanheiras");
+        e.setTelefone("(61) 9999-000");
+        
+        //Criando variavel para mostrar valores
+        
+        
+        //imprimindo valores
+        
+       
+        
+    }
     
 }

@@ -47,7 +47,7 @@ public class ContaCorrente {
     //METÓDO ToString
     @Override
     public String toString() {
-        return "ContaCorrente{" + "numero=" + numero + ", tipo=" + tipo + ", saldo=" + saldo + '}';
+        return "ContaCorrente{" + "numero: " + numero + ", tipo: " + tipo + ", saldo: R$" + saldo + '}';
     }
     
   

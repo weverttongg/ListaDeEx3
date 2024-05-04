@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ListaDeExercicios;
 
-/**
- *
- * @author wever
- */
+import ListaDeExercicios.Veiculo;
+import javax.swing.JOptionPane;
+
 public class TesteVEICULO {
+    public static void main(String[] args) {
+        //Criando Objeto
+        Veiculo v = new Veiculo();
+        
+        v.setMarca("Toyota");
+        v.setModelo("Supra");
+        v.setPreco(249.99);
+        
+        String info = v.toString();
+        
+        System.out.println(info);
+     
+     JOptionPane.showMessageDialog(null, info);
+    }
     
 }

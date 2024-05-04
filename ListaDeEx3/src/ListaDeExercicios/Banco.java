@@ -50,7 +50,7 @@ public class Banco {
     @Override
     public String toString() {
         System.out.println();
-        return "Banco{" + "Nome=" + nome + ", Codigo=" + codigo + ", paisOrigem=" + paisOrigem + '}';
+        return "Banco{" + "Nome:" + nome + ", Codigo: " + codigo + ", Pais de Origem: " + paisOrigem + '}';
     }
  
     
