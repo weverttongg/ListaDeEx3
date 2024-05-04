@@ -1,13 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ListaDeExercicios;
 
-/**
- *
- * @author wever
- */
+
 public class Agencia {
+    //variaveis no estado de PRIVADAS
+    private int numero;
+    private String nome;
+    
+    //ENCAPSULAMENTO
+    
+    // (Get) VARIAVEL NUMERO ( metodo que retorna um valor e sem parâmetro )
+    public int getNumero() {
+        return numero;
+    }
+    
+// (Set) VARIAVEL NUMERO ( metodo que não retorna valor e com parâmetro ) 
+    public void setNumero(int nuemro) {
+        this.numero = numero;
+    }
+    
+    //ENCAPSULAMENTO
+    
+    // (Get) VARIAVEL NOME ( metodo que retorna um valor e sem parâmetro )
+    public String getNome() {
+        return nome;
+    }
+    
+// (Set) VARIAVEL NOME ( metodo que não retorna valor e com parâmetro ) 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
     
 }
