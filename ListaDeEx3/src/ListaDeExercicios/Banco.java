@@ -3,7 +3,7 @@ package ListaDeExercicios;
 
 
 public class Banco {
-    //variaveis
+    //variaveis no estado de PRIVADAS
     private int codigo;
     private String nome;
     private String paisOrgigem;
@@ -29,7 +29,7 @@ public class Banco {
     
     // (Set) VARIAVEL NOME ( metodo que não retorna valor e com parâmetro ) 
     public void setNome (String nome) {
-        this.nome = nome;
+        this.nome = nome; 
     }
     
                     //ENCAPSULAMENTO
