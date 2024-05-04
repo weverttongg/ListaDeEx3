@@ -3,10 +3,10 @@ package ListaDeExercicios;
 
 
 public class Banco {
-    //variaveis no estado de PRIVADAS
+    //variaveis - atributos no estado de PRIVADAS
     private int codigo;
     private String nome;
-    private String paisOrgigem;
+    private String paisOrigem;
     
                 //ENCAPSULAMENTO
     
@@ -35,27 +35,24 @@ public class Banco {
                     //ENCAPSULAMENTO
     
     // (Get) VARIAVEL PAISORIGEM ( metodo que retorna um valor e sem parâmetro )
-    public String getPaisOrgiem () {
-        return paisOrgigem;
+    public String getPaisOrigem () {
+        return paisOrigem;
     }
     
     // (Set) VARIAVEL PAISORIGEM ( metodo que não retorna valor e com parâmetro ) 
     public void setPaisOrigem(String paisOrigem) {
-        this.paisOrgigem = paisOrigem;
+        this.paisOrigem = paisOrigem;
     }
+    
+
 
     //METÓDO ToString
     @Override
     public String toString() {
-        return "Banco{" + "codigo=" + codigo + ", nome=" + nome + ", paisOrgigem=" + paisOrgigem + '}';
+        System.out.println();
+        return "Banco{" + "Nome=" + nome + ", Codigo=" + codigo + ", paisOrigem=" + paisOrigem + '}';
     }
+ 
     
-    
-    //METÓDO CONSTRUCTOR
-     public Banco(int codigo, String nome, String paisOrgigem) {
-        this.codigo = codigo;
-        this.nome = nome;
-        this.paisOrgigem = paisOrgigem;
-    }
-    
+
 }

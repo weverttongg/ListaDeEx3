@@ -48,12 +48,6 @@ public class Empregado {
     public String toString() {
         return "Empregado{" + "nome=" + nome + ", matricula=" + matricula + ", funcao=" + funcao + '}';
     }
-    
-    //METÓDO CONSTRUCTOR
-    public Empregado(String nome, int matricula, String funcao) {
-        this.nome = nome;
-        this.matricula = matricula;
-        this.funcao = funcao;
-    }
+
     
 }

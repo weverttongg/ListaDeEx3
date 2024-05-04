@@ -50,11 +50,5 @@ public class ContaCorrente {
         return "ContaCorrente{" + "numero=" + numero + ", tipo=" + tipo + ", saldo=" + saldo + '}';
     }
     
-    //METÓDO CONSTRUCTOR
-    public ContaCorrente(int numero, int tipo, double saldo) {
-        this.numero = numero;
-        this.tipo = tipo;
-        this.saldo = saldo;
-    }
-    
+  
 }

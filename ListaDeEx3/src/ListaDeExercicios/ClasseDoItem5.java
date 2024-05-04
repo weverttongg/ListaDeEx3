@@ -1,7 +1,10 @@
 
 package ListaDeExercicios;
 
-public class Endereco {
+//>>>>>>>>>>> COPIA DA CLASSE ENDEREÇO <<<<<<<<<
+
+
+public class ClasseDoItem5 {
     //variaveis no estado de PRIVADAS
     private String rua;
     private int numero;
@@ -43,12 +46,13 @@ public class Endereco {
     }
     
     
-    //METÓDO ToString
-
-    @Override
-    public String toString() {
-        return "Endereco{" + "rua=" + rua + ", numero=" + numero + ", telefone=" + telefone + '}';
+        //METÓDO CONSTRUCTOR
+    public ClasseDoItem5(String rua, int numero, String telefone) {
+        this.rua = rua;
+        this.numero = numero;
+        this.telefone = telefone;
     }
     
   
+
 }

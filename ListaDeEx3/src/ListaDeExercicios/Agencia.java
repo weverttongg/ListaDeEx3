@@ -38,10 +38,5 @@ public class Agencia {
         return "Agencia{" + "numero=" + numero + ", nome=" + nome + '}';
     }
     
-    //METÓDO CONSTRUCTOR
-    public Agencia(int numero, String nome) {
-        this.numero = numero;
-        this.nome = nome;
-    }
-    
+
 }
