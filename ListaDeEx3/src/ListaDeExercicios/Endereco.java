@@ -1,45 +1,13 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package ListaDeExercicios;
 
-
+/**
+ *
+ * @author wever
+ */
 public class Endereco {
-    //variaveis no estado de PRIVADAS
-    private String rua;
-    private int numero;
-    private String telefone;
     
-                    //ENCAPSULAMENTO
-    
-    // (Get) VARIAVEL RUA ( metodo que retorna um valor e sem parâmetro )
-    public String getRua() {
-        return rua;
-    }
-    
-    // (Set) VARIAVEL RUA ( metodo que não retorna valor e com parâmetro ) 
-    public void setRua(String rua) {
-        this.rua = rua;
-    }
-    
-                    //ENCAPSULAMENTO
-    
-    // (Get) VARIAVEL NUMERO ( metodo que retorna um valor e sem parâmetro )
-    public int getNumero() {
-        return numero;
-    }
-    
-    // (Set) VARIAVEL NUMERO ( metodo que não retorna valor e com parâmetro )
-    public void setNumero (int numero) {
-        this.numero = numero;
-    }
-                    //ENCAPSULAMENTO
-    
-    // (Get) VARIAVEL TELEFONE ( metodo que retorna um valor e sem parâmetro )
-    public String getTelefone() {
-        return telefone;
-    }
-    
-    // (Set) VARIAVEL TELEFONE ( metodo que não retorna valor e com parâmetro ) 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
 }
