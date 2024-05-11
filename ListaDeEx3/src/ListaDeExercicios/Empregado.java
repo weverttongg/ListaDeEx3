@@ -46,7 +46,7 @@ public class Empregado {
     //METÓDO ToString
     @Override
     public String toString() {
-        return "Empregado{" + "nome=" + nome + ", matricula=" + matricula + ", funcao=" + funcao + '}';
+        return "Empregado{" + "nome=" + nome + ", matricula=" + matricula + ", função=" + funcao + '}';
     }
 
     

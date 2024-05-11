@@ -1,8 +1,6 @@
 
 package ListaDeExercicios;
 
-import javax.swing.JOptionPane;
-import ListaDeExercicios.ClasseDoItem5;
 
 public class TesteCLASSE5 {
      public static void main(String[] args) {
@@ -14,12 +12,11 @@ public class TesteCLASSE5 {
         e.setRua("Av das Castanheiras");
         e.setTelefone("(61) 9999-000");
         
-        //Criando variavel para mostrar valores
-        
+      
         
         //imprimindo valores
         
-       
+         System.out.println(e);
         
     }
     

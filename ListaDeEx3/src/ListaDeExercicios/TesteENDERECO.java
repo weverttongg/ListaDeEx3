@@ -15,12 +15,11 @@ public class TesteENDERECO {
         e.setRua("Av das Castanheiras");
         e.setTelefone("(61) 9999-000");
         
-        //Criando variavel para mostrar valores
-        String info = e.toString();
+        
         
         //imprimindo valores
-        System.out.println(info);
-        JOptionPane.showMessageDialog(null, info);
+        System.out.println(e);
+        JOptionPane.showMessageDialog(null, e);
         
     }
     

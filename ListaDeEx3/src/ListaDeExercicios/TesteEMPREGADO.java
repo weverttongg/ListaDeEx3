@@ -1,7 +1,7 @@
 
 package ListaDeExercicios;
 
-import ListaDeExercicios.Empregado;
+
 
 public class TesteEMPREGADO {
     public static void main(String[] args) {
@@ -13,10 +13,9 @@ public class TesteEMPREGADO {
         e.setMatricula(2332);
         e.setNome("Wevertton Rodrigues");
         
-        //variavel para receber os dados do ToString
-        String info = e.toString();
+       
         
-        System.out.println(info);
+        System.out.println(e);
     }
     
 }

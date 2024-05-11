@@ -1,7 +1,7 @@
 
 package ListaDeExercicios;
 
-import ListaDeExercicios.Agencia;
+
 import javax.swing.JOptionPane;
 public class TesteAGENCIA {
     
@@ -13,11 +13,10 @@ public class TesteAGENCIA {
         a.setNome("Banco do Povo");
         a.setNumero(1);
         
-        //cirnado variacel para receber o valor do ToString
-        String info = a.toString();
+       
         
         //nostrando resultados
-        System.out.println(info);
-        JOptionPane.showMessageDialog(null, info);
+        System.out.println(a);
+        JOptionPane.showMessageDialog(null, a);
     }
 }

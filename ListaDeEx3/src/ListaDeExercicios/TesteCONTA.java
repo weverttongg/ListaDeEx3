@@ -2,7 +2,7 @@
 package ListaDeExercicios;
 
 //pegando as informaçoes da > Classe ContaCorrente <
-import ListaDeExercicios.ContaCorrente;
+
 import javax.swing.JOptionPane;
 
 public class TesteCONTA {
@@ -18,13 +18,12 @@ public class TesteCONTA {
         conta.setNumero(3232);
         conta.setSaldo(559.12);
         
-        //criando variavel para mostrar os valores
-        String info = conta.toString();
+
         
         //imprimindo os resultados
-        System.out.println(info);
+        System.out.println(conta);
         
-        JOptionPane.showMessageDialog(null, info);
+        JOptionPane.showMessageDialog(null, conta);
     }
     
 }

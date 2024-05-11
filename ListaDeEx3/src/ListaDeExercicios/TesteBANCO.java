@@ -1,7 +1,7 @@
 package ListaDeExercicios;
 
 //pegando as informaçoes da > Classe Banco <
-import ListaDeExercicios.Banco;
+
 import javax.swing.JOptionPane;
 
 public class TesteBANCO {
@@ -16,12 +16,11 @@ public class TesteBANCO {
         banco.setNome(" Wevertton Rodrigues");
         banco.setPaisOrigem(" Brasil");
         
-        //criando variavel que ira mostrar valor pelo ToString
-         String informacao = banco.toString();
+      
         
          //imprimindo resultado
-        System.out.println(informacao);
+        System.out.println(banco);
         
-        JOptionPane.showMessageDialog(null, informacao);
+        JOptionPane.showMessageDialog(null, banco);
     }
 }

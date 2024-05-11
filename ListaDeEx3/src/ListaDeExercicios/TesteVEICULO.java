@@ -1,7 +1,6 @@
 
 package ListaDeExercicios;
 
-import ListaDeExercicios.Veiculo;
 import javax.swing.JOptionPane;
 
 public class TesteVEICULO {
@@ -13,11 +12,11 @@ public class TesteVEICULO {
         v.setModelo("Supra");
         v.setPreco(249.99);
         
-        String info = v.toString();
+    
         
-        System.out.println(info);
+        System.out.println(v);
      
-     JOptionPane.showMessageDialog(null, info);
+     JOptionPane.showMessageDialog(null, v);
     }
     
 }
