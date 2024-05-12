@@ -1,15 +1,24 @@
 
 package ListaDeExercicios;
 
-//>>>>> COPIA DA CLASSE EMPREGADO <<<<<
 
 public class ClasseDoItem6 {
      //variaveis no estado de PRIVADAS
     private String nome;
-    private int matricula;
-    private String funcao;
+    private int idade;
+    private String cidade;
+    private String disponibilidade;
+   
     
     //ENCAPSULAMENTO
+    
+    public String getDisponibilidade() {
+        return disponibilidade;
+    }
+    
+    public void setDisponibilidade(String disponibilidade) {
+        this.disponibilidade = disponibilidade;
+    }
     
     // (Get) VARIAVEL NOME ( metodo que retorna um valor e sem parâmetro )
     public String getNome() {
@@ -24,30 +33,36 @@ public class ClasseDoItem6 {
     //ENCAPSULAMENTO
     
     // (Get) VARIAVEL MATRICULA ( metodo que retorna um valor e sem parâmetro )
-    public int getMatricula() {
-        return matricula;
+    public int getIdade() {
+        return idade;
     }
     
 // (Set) VARIAVEL MATRICULA ( metodo que não retorna valor e com parâmetro ) 
-    public void setMatricula(int matricula){
-        this.matricula = matricula;
+    public void setIdade(int idade){
+        this.idade = idade;
     }
     
     //ENCAPSULAMENTO
     
     // (Get) VARIAVEL FUNCAO ( metodo que retorna um valor e sem parâmetro )
-    public String getFuncao() {
-        return funcao;
+    public String getCidade() {
+        return cidade;
     }
     
 // (Set) VARIAVEL FUNCAO ( metodo que não retorna valor e com parâmetro ) 
-    public void setFuncao(String funcao) {
-        this.funcao = funcao;
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
     }
-    
-    //METÓDO ToString
+
     @Override
     public String toString() {
-        return "Empregado{" + "nome=" + nome + ", matricula=" + matricula + ", funcao=" + funcao + '}';
-    } 
+        return "ClasseDoItem6{" + "nome=" + nome + ", idade=" + idade + ", cidade=" + cidade + '}';
+    }
+
+    
+    
+
+
+    
+   
 }

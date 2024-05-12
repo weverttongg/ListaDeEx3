@@ -9,5 +9,14 @@ package ListaDeExercicios;
  * @author wever
  */
 public class TesteCLASSE6 {
-    
+    public static void main(String[] args) {
+        ClasseDoItem6 c = new ClasseDoItem6();
+
+            c.setNome("Wevertton");
+            c.setIdade(22);
+            c.setCidade("GamaDF");
+            
+            
+            System.out.println(c);
+    }
 }
